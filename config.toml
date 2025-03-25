@@ -1,0 +1,9 @@
+[mtconnect]
+baseUrl = "https://demo.mtconnect.org"
+pollInterval = 100  # Poll every 2 seconds
+connectionTimeout = 10  # 10-second timeout for connection failures
+
+[opcua]
+port = 4840  # OPC UA server port
+username = "admin"  # Username for OPC UA authentication
+password = "password"  # Password for OPC UA authentication
